@@ -1,0 +1,25 @@
+{
+  "name": "parcel-plugin-create-ccx",
+  "version": "0.0.1",
+  "description": "Archive output directory as a zip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Kurt <mkurt@turbosquid.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbosquid/parcel-plugin-create-zip"
+  },
+  "keywords": [
+    "parcel",
+    "parcel-plugin",
+    "zip"
+  ],
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "minimatch": "^3.0.4",
+    "mkdirp": "^1.0.4"
+  }
+}
